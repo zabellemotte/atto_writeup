@@ -1,0 +1,169 @@
+input.atto_writeup_focus {
+margin-left:25px!important;
+}
+
+
+
+.atto_writeup_serious {
+    border-bottom: 2px dashed #ff0000;
+}
+
+.atto_writeup_normal {
+    border-bottom: 2px dashed blue;
+}
+.atto_writeup_positive {
+    border-bottom: 2px dashed green;
+}
+
+.atto_writeup_serious:before {
+    content: '\f071';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    margin-right:5px;
+    color:red;
+}
+
+.atto_writeup_serious.atto_writeup_focus_cor:before {
+    content: '\f140   \f071';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    margin-right:5px;
+    color:red;
+    white-space: pre;
+}
+
+
+.atto_writeup_normal:before {
+    content: '\f165';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    margin-right:5px;
+    color:blue;
+}
+
+.atto_writeup_normal.atto_writeup_focus_cor:before {
+    content: '\f140  \f165';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    margin-right:5px;
+    color:blue;
+    white-space: pre;
+}
+
+
+.atto_writeup_positive:before {
+    content: '\f164';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+     margin-right:5px;
+    color:green;
+}
+
+.atto_writeup_positive.atto_writeup_focus_cor:before
+{
+ content: '\f140  \f164';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    margin-right:5px;
+    color:green;
+    white-space: pre;
+}
+
+
+.atto_writeup_serious .atto_writeup_error
+{
+	/*text-decoration: line-through;*/
+	background-color: #ff00004d;
+}
+
+
+.atto_writeup_altext_serious {
+	color:red;
+}
+
+.atto_writeup_altext_normal  {
+  color:blue;
+}
+
+.atto_writeup_altext_positive {
+  color:green;
+}
+
+.atto_writeup_correction  {
+    cursor: pointer;
+}
+
+.atto_writeup.atto_writeup_serious  sup {
+    color: red;
+    border: none;
+ /*   text-transform: uppercase;*/
+}
+
+.atto_writeup.atto_writeup_normal  sup {
+    color: blue;
+    border: none;
+ /*   text-transform: uppercase; */
+}
+
+.atto_writeup.atto_writeup_positive  sup {
+    color: green;
+    border: none;
+  /*  text-transform: uppercase;*/
+}
+
+.atto_writeup_comment {
+    border: 1px #cccccc solid;
+    background-color: #ffffcc;
+    color: #000000;
+    padding: 0.1em 0.5em;
+    margin: 0 0.5em;
+    display: none;
+    font-family: monospace;
+    font-size: 0.8em;
+}
+
+.atto_writeup_strike.atto_writeup_serious .atto_writeup_error{
+text-decoration: line-through;
+}
+
+
+.atto_writeup_fulltext .atto_writeup_comment {
+    display: inline;
+}
+
+.atto_writeup:hover .atto_writeup_comment {
+    display: inline;
+}
+
+/*
+.atto_writeup:after {
+    content: '!';
+    color: #ff0000;
+    font-size: 0.7em;
+    vertical-align: super;
+    text-transform: uppercase;
+}
+
+.atto_writeup_g:after {
+    content: 'g';
+}
+*/
+
