@@ -19,8 +19,10 @@ YUI.add('moodle-atto_writeup-button', function (Y, NAME) {
  * Atto text editor integration version file.
  *
  * @package    atto_writeup
- * @copyright  2019 Université catholique de Louvain
- * @author     Isabelle Motte <isabelle.motte@uclouvain.be>
+ * @forked from atto_corrections
+ * @copyright  2014 Université de Lausanne
+ * @author     Nicolas Dunand <nicolas.dunand@unil.ch>
+ * @modified by Zabelle Motte <isabelle.motte@uclouvain.be>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
