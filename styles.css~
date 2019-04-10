@@ -141,7 +141,7 @@ margin-left:25px!important;
 }
 
 .atto_writeup_strike.atto_writeup_serious .atto_writeup_error{
-/*text-decoration: line-through; */
+text-decoration: line-through;
 }
 
 
