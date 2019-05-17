@@ -44,6 +44,7 @@ function atto_writeup_strings_for_js() {
                                         'focus',
                                         'serious',
                                         'normal',
+                                        'minor',
                                         'positive',
                                         'fulltexttitle',
                                         'addmark1',

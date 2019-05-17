@@ -2,8 +2,6 @@ input.atto_writeup_focus {
 margin-left:25px!important;
 }
 
-
-
 .atto_writeup_serious {
     border-bottom: 2px dashed #ff0000;
 }
@@ -11,11 +9,17 @@ margin-left:25px!important;
 .atto_writeup_normal {
     border-bottom: 2px dashed blue;
 }
+
+.atto_writeup_minor {
+    border-bottom: 2px dashed black;
+}
+
 .atto_writeup_positive {
     border-bottom: 2px dashed green;
 }
 
 .atto_writeup_serious:before {
+ /*   content: '\f071'; */
     content: '\f071';
     font-family: FontAwesome;
     font-style: normal;
@@ -27,6 +31,7 @@ margin-left:25px!important;
 }
 
 .atto_writeup_serious.atto_writeup_focus_cor:before {
+ /*   content: '\f140   \f071'; */
     content: '\f140   \f071';
     font-family: FontAwesome;
     font-style: normal;
@@ -40,9 +45,10 @@ margin-left:25px!important;
 
 
 .atto_writeup_normal:before {
-    content: '\f165';
+/*    content: '\f165';*/
+    content: '\f119';
     font-family: FontAwesome;
-    font-style: normal;
+    font-style: solid;
     font-weight: normal;
     text-decoration: inherit;
     margin-left:5px;
@@ -51,9 +57,10 @@ margin-left:25px!important;
 }
 
 .atto_writeup_normal.atto_writeup_focus_cor:before {
-    content: '\f140  \f165';
+ /*   content: '\f140  \f165'; */
+    content: '\f140  \f119';
     font-family: FontAwesome;
-    font-style: normal;
+    font-style: solid;
     font-weight: normal;
     text-decoration: inherit;
     margin-left:5px;
@@ -64,6 +71,7 @@ margin-left:25px!important;
 
 
 .atto_writeup_positive:before {
+    /* content: '\f164';*/
     content: '\f164';
     font-family: FontAwesome;
     font-style: normal;
@@ -76,7 +84,8 @@ margin-left:25px!important;
 
 .atto_writeup_positive.atto_writeup_focus_cor:before
 {
- content: '\f140  \f164';
+	/*content: '\f140  \f164';*/
+    content: '\f140  \f164';
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -136,7 +145,7 @@ margin-left:25px!important;
     padding: 0.1em 0.5em;
     margin: 0 0.5em;
     display: none;
-    font-family: monospace;
+    font-family: Georgia, sans-serif;
     font-size: 0.8em;
 }
 
@@ -151,6 +160,11 @@ margin-left:25px!important;
 
 .atto_writeup:hover .atto_writeup_comment {
     display: inline;
+}
+
+#id_assignfeedbackwriteup_editoreditable.editor_atto_content
+{
+line-height: 2;
 }
 
 /*

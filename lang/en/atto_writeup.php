@@ -34,22 +34,23 @@ CouUnc= Countable/Uncountable
 PrefSuff= Prefix/Suffix
 SingPlu = Singular/Plural
 Spl= Spelling
-VForm = Verb Form
+VForm = Verb Formation
 ';
 $string['corrtypes2'] = 'VOC';
 $string['corrtypes2_desc'] = 'Please enter one VOC correction type per line, in the form "abbreviation = description".<br><strong>Warning:</strong> each abbreviation must be unique!';
 $string['corrtypes2_default'] = '
 Comp = Compound
 Coll= Collocation
-Idiom = Idiomatic 
-MeanUncl = Meaning Is Unclear
+Idiom = Idiom 
+UnclMean = Unclear Meaning
 Red = Redundant
 ';
 $string['corrtypes3'] = 'GRAM';
 $string['corrtypes3_desc'] = 'Please enter one GRAM correction type per line, in the form "abbreviation = description".<br><strong>Warning:</strong> each abbreviation must be unique!';
 $string['corrtypes3_default'] = '
 Compl= Complementation
-Det= Determiner parallel structures
+Det= Determiner 
+Par = Parallel structures
 Poss= Possessive case
 Prep= Preposition
 ProAntAgr= Pronoun Antecedent Agreement
@@ -87,7 +88,8 @@ $string['corrtext'] = 'Comment';
 $string['focus'] = 'Focus mark';
 $string['marking'] = 'Marking';
 $string['serious'] = 'Serious error';
-$string['normal'] = 'Normal error';
+$string['normal'] = 'Error';
+$string['minor'] = 'Minor error';
 $string['positive'] = 'Well done';
 $string['altext'] = 'Alternate text';
 $string['dialogtitle1'] = 'Add/modify a "Word form" mark';
@@ -97,12 +99,45 @@ $string['dialogtitle4'] = 'Add/modify a "Syntax" mark';
 $string['dialogtitle5'] = 'Add/modify a "Punctuation" mark';
 $string['dialogtitle6'] = 'Add/modify a "Style" mark';
 $string['fulltexttitle'] = 'Text with all marks and comments';
-$string['addmark1'] = 'Add a "Word form" correction mark';
-$string['addmark2'] = 'Add a "Vocabulary" correction mark';
-$string['addmark3'] = 'Add a "Grammar" correction mark';
-$string['addmark4'] = 'Add a "Syntax" correction mark';
-$string['addmark5'] = 'Add a "Punctuation" correction mark';
-$string['addmark6'] = 'Add a Style" correction mark';
+$string['addmark1'] = 'Add a "Word form" correction:
+Capitalize 
+Comparative/Superlative 
+Countable/Uncountable 
+Prefix/Suffix
+Singular/Plural 
+Spelling
+Verb Formation';
+$string['addmark2'] = 'Add a "Vocabulary" correction mark: 
+Compound
+Collocation
+Idiom
+Unclear Meaning
+Redundant';
+$string['addmark3'] = 'Add a "Grammar" correction mark: 
+Complementation
+Determiner
+Parallel structures
+Possessive case
+Preposition
+Pronoun Antecedent Agreement
+Subject/Verb Agreement
+Verb Tense
+Verb Voice';
+$string['addmark4'] = 'Add a "Syntax" correction mark:
+Adjective/Adverb Position
+Incomplete
+Indirect Speech
+Question Structure
+Link Word ';
+$string['addmark5'] = 'Add a "Punctuation" correction mark: 
+Missing Punctuation 
+Punctuation Confusion
+Redundant Punctuation';
+$string['addmark6'] = 'Add a "Style" correction mark: 
+Register
+Repetition
+Unclear phrase or sentence
+Wordiness';
 $string['removemark'] = 'Remove this correction mark';
 $string['displayfulltext'] = 'Display text with correction marks';
 $string['privacy:metadata'] = 'The atto_writeup plugin does not store any personal data.';

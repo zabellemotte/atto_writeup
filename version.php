@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2019280300;
+$plugin->version   = 2019051701;
 $plugin->requires  = 2014050800;
 $plugin->component = 'atto_writeup';
 $plugin->maturity = MATURITY_STABLE;

@@ -79,10 +79,11 @@ var COMPONENTNAME = 'atto_writeup',
                 '<input type="checkbox" id="{{elementid}}_atto_writeup_focus" name="{{elementid}}_atto_writeup_focus" value="yes" class="{{CSS.CHECKBOX}}"> '+
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
-                '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +                
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -107,9 +108,10 @@ var COMPONENTNAME = 'atto_writeup',
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
                 '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -134,9 +136,10 @@ var COMPONENTNAME = 'atto_writeup',
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
                 '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -161,9 +164,10 @@ var COMPONENTNAME = 'atto_writeup',
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
                 '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -188,9 +192,10 @@ var COMPONENTNAME = 'atto_writeup',
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
                 '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -215,9 +220,10 @@ var COMPONENTNAME = 'atto_writeup',
                 '<label for="{{elementid}}_atto_writeup_focus">{{get_string "focus" component}}  </label> ' +
                 '<label for="{{elementid}}_atto_writeup_marking">{{get_string "marking" component}}  </label> ' +
                 '<select id="{{elementid}}_atto_writeup_marking" class="{{CSS.MARKING}}">' +
-                 '<option value="normal">{{get_string "normal" component}}</option>' +
-                 '<option value="serious">{{get_string "serious" component}}</option>' +
-                 '<option value="positive">{{get_string "positive" component}}</option>' +
+                '<option value="serious">{{get_string "serious" component}}</option>' +
+                '<option value="normal" selected="selected">{{get_string "normal" component}}</option>' +
+                '<option value="minor">{{get_string "minor" component}}</option>' +
+                '<option value="positive">{{get_string "positive" component}}</option>' +
                 '</select>' +
                 '<label for="{{elementid}}_atto_writeup_corrtext">{{get_string "corrtext" component}}</label>' +
                 '<textarea class="fullwidth {{CSS.TEXTAREA1}}" type="text" id="{{elementid}}_atto_writeup_corrtext">' +
@@ -933,7 +939,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -953,8 +961,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
@@ -1003,7 +1013,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -1023,8 +1035,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
@@ -1073,7 +1087,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                 if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -1093,8 +1109,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
@@ -1142,7 +1160,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                 if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -1162,8 +1182,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
@@ -1212,7 +1234,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                 if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -1232,8 +1256,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
@@ -1282,7 +1308,9 @@ ffff = form;
                 //  - get the orignal node
                 var ynode = Y.Node(host.getSelectionParentNode().parentNode);
                 //  - insert the new comment
-                ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = ctext;
+                if (ctext!="")
+                    ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML = '<b>'+ ctypefull + '</b> : ' + ctext;
+                else ynode.one('.' + CSS.CORRTEXT).getDOMNode().innerHTML ='<b>'+ ctypefull + '</b>';
                 ynode.one('.' + CSS.ALTEXT).getDOMNode().innerHTML = atext;
                 if (isfocus) {ynode.one('.' + CSS.FOCUS).set('checked', 'checked');}
                 //ynode.one('.' + CSS.FOCUS).getDOMNode().innerHTML = isfocus;
@@ -1302,8 +1330,10 @@ ffff = form;
                 if ((mark=="serious")&&(strike=="yes")) host.toggleInlineSelectionClass([CSS.STRIKE]);
                 host.toggleInlineSelectionClass([CSS.BASECLASS + mark]);
                 host.toggleInlineSelectionClass([uniqueclass]);
+                if (ctext!="")
+                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>');
+                else node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> '+ '</span>');
                 var node0 = Y.Node.create('<span class="' + CSS.CORRSPAN + '"/>'),
-                    node1 = Y.Node.create('<span class="' + CSS.CORRTEXT + '"> <b> ' + ctypefull + ' </b> : '+ ctext + '</span>'),
                     node2 = Y.Node.create('<span class="' + CSS.ALTEXT + ' ' + CSS.ALTEXT + '_'+ mark +'">' + atext + '</span>'),
                     node3 = Y.Node.create('<sup title="' + ctext + '">' + ctype + '</sup>');
                 Y.one('.' + uniqueclass).appendChild(node0);
